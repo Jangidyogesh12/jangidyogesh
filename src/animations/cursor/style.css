@@ -1,0 +1,45 @@
+.cursor-dot,
+.cursor-dot-outline {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #00a9ff;
+}
+
+.cursor-dot-outline {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(75, 169, 201, 0.511);
+}
+
+@media only screen and (max-width: 550px) {
+  .cursor-dot,
+  .cursor-dot-outline {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .cursor-dot,
+  .cursor-dot-outline {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min_width: 769px) and (max-width: 990px) {
+  .cursor-dot,
+  .cursor-dot-outline {
+    background-color: transparent;
+  }
+}

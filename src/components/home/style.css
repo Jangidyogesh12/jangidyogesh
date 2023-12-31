@@ -1,0 +1,78 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.home_text {
+  display: flex;
+  justify-content: center;
+  /* border: solid 2px red; */
+}
+
+.headder {
+  color: var(--theme-nav-main-color);
+  margin: 0;
+  font-size: 6.5rem;
+  font-weight: 500;
+  line-height: 10rem;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingEffectAnimation 1s steps(30, end);
+  /* border: solid 2px red; */
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.social-icons li:hover {
+  transform: scale(1.5);
+}
+
+a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 550px) {
+  .headder {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .headder {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (min_width: 769px) and (max-width: 990px) {
+  .headder {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+}
+
+@keyframes typingEffectAnimation {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}

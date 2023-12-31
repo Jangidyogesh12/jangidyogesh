@@ -1,0 +1,38 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 2px red; */
+  color: var(--theme-nav-main-color);
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+p {
+  left: 50px;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  padding: 10px;
+  /* border: solid 2px red; */
+  font-size: 12pt;
+}
+
+h1 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  /* border: solid 2px red; */
+  width: calc(100% - 400px);
+  height: calc(100vh - 80px);
+}

@@ -1,0 +1,68 @@
+.image-collage {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(100px, 1fr)
+  ); /* Adjust column width */
+  gap: 10px; /* Adjust the gap between images */
+  justify-items: center;
+}
+
+.image-collage img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%; /* Ensure images take up full space within their grid cell */
+  height: auto;
+  border-radius: 5px; /* Add border-radius for a rounded look */
+}
+.img_skill:hover {
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1.2);
+}
+
+#img2 {
+  left: 200px;
+}
+
+#img3 {
+  left: 400px;
+}
+
+#img4 {
+  left: 600px;
+}
+
+#img5 {
+  top: 180px;
+  left: 100px;
+}
+
+#img6 {
+  top: 185px;
+  left: 300px;
+}
+
+#img7 {
+  top: 190px;
+  left: 500px;
+}
+
+#img8 {
+  top: 250px;
+  left: 200px;
+}
+
+#img9 {
+  top: 250px;
+  left: 400px;
+}
+
+#img10 {
+  top: 350px;
+  left: 300px;
+}
+
+#img11 {
+  top: 250px;
+}
