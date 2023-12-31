@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Jangidyogesh/static/css/main.3e79e070.css",
+    "main.js": "/Jangidyogesh/static/js/main.20cb8f6c.js",
+    "static/js/787.2dcca737.chunk.js": "/Jangidyogesh/static/js/787.2dcca737.chunk.js",
+    "static/media/Snake.jpg": "/Jangidyogesh/static/media/Snake.5932cbd1b763523c5779.jpg",
+    "static/media/generated.jpeg": "/Jangidyogesh/static/media/generated.b8d3251f4bcba656cfa8.jpeg",
+    "static/media/css.png": "/Jangidyogesh/static/media/css.5bd8c8166c13d3d30503.png",
+    "static/media/tensorflow.png": "/Jangidyogesh/static/media/tensorflow.d2145cc75dc411e52a95.png",
+    "static/media/java.png": "/Jangidyogesh/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/java_script.png": "/Jangidyogesh/static/media/java_script.cf7522f436d6510da302.png",
+    "static/media/c.png": "/Jangidyogesh/static/media/c.83dfa097dfa94f707a41.png",
+    "static/media/cpp.png": "/Jangidyogesh/static/media/cpp.1240ce157b70fb399c6c.png",
+    "static/media/Next.png": "/Jangidyogesh/static/media/Next.b14ae61f24d9b2f0b951.png",
+    "static/media/python.png": "/Jangidyogesh/static/media/python.53f15fae5e9bab19ed7d.png",
+    "static/media/git.png": "/Jangidyogesh/static/media/git.7d664489ed331806ddc8.png",
+    "static/media/react.webp": "/Jangidyogesh/static/media/react.0c40a476122ed4d1e382.webp",
+    "static/media/cust_logo.svg": "/Jangidyogesh/static/media/cust_logo.5c7097da29b4e3bea20568f4aeecc2c5.svg",
+    "index.html": "/Jangidyogesh/index.html",
+    "main.3e79e070.css.map": "/Jangidyogesh/static/css/main.3e79e070.css.map",
+    "main.20cb8f6c.js.map": "/Jangidyogesh/static/js/main.20cb8f6c.js.map",
+    "787.2dcca737.chunk.js.map": "/Jangidyogesh/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e79e070.css",
+    "static/js/main.20cb8f6c.js"
+  ]
+}
